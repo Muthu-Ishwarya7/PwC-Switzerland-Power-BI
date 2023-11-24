@@ -1,0 +1,106 @@
+The percentage of calls resolved
+
+Resolved_Y = COUNTROWS(FILTER('Sheet1','Sheet1'[Resolved]="Y"))
+Resolved_Yp = INT(ROUND(('Sheet1'[Resolved_Y]/COUNTROWS('Sheet1'))*100,0))
+Resolved_Yp_f = FORMAT(('Sheet1'[Resolved_Yp]/100),".0%")---73.0%
+
+Certainly! Here are 15 Key Performance Indicators (KPIs) that can be relevant for a Call Centre Dataset:
+
+Overall Customer Satisfaction (CSAT):
+
+Measure of customer satisfaction with the service provided.
+First Call Resolution (FCR):
+
+Percentage of calls resolved without the need for follow-up calls.
+Average Handle Time (AHT):
+
+Average duration of a call, including talk time and any hold or wrap-up time.
+Calls Answered:
+
+Total number of calls that were answered by agents.
+Calls Abandoned:
+
+Total number of calls that were abandoned by customers before being answered.
+Average Speed of Answer (ASA):
+
+Average time it takes for calls to be answered by agents.
+Service Level Agreement (SLA) Adherence:
+
+Percentage of calls answered within a predefined time frame.
+Occupancy Rate:
+
+Percentage of time agents spend actively handling calls and other tasks.
+Agent Utilization:
+
+Percentage of time agents spend on productive activities.
+Customer Retention Rate:
+
+Percentage of customers retained after interacting with the call center.
+Call Transfer Rate:
+
+Percentage of calls transferred to other agents or departments.
+Abandonment Rate:
+
+Percentage of calls that were abandoned by customers.
+Call Escalation Rate:
+
+Percentage of calls escalated to higher-level support or management.
+Agent Adherence to Schedule:
+
+Measure of how well agents adhere to their assigned work schedules.
+Customer Feedback and Surveys:
+
+Collect and analyze feedback from customers through surveys or direct feedback after calls.
+These KPIs cover various aspects of call center performance, including customer satisfaction, operational efficiency, agent productivity, and overall service quality. Depending on specific business goals and objectives, you may choose to focus on a subset of these KPIs.
+
+
+
+
+User
+Design the Dashboard with above 
+
+
+Creating a visual representation of the dashboard here is not possible, but I can provide you with a textual description of how you can design it in Power BI. You can use these instructions as a guide when you're working within the Power BI Desktop application.
+
+Dashboard Components:
+Overall Customer Satisfaction (CSAT):
+
+KPI Card displaying the CSAT score.
+First Call Resolution (FCR):
+
+KPI Card showing the percentage of calls resolved on the first attempt.
+Average Handle Time (AHT):
+
+KPI Card displaying the average handle time.
+Calls Answered and Calls Abandoned:
+
+Stacked Bar Chart or Donut Chart showing the proportion of calls answered and abandoned.
+Average Speed of Answer (ASA):
+
+Gauge or KPI Card showing the ASA.
+Service Level Agreement (SLA) Adherence:
+
+Line Chart or KPI Card displaying SLA adherence percentage.
+Occupancy Rate and Agent Utilization:
+
+Dual-Axis Line Chart or Stacked Area Chart for both occupancy rate and agent utilization over time.
+Customer Retention Rate:
+
+KPI Card displaying the customer retention rate.
+Call Transfer Rate and Abandonment Rate:
+
+Side-by-side Bar Chart showing the rates of call transfers and call abandonments.
+Call Escalation Rate:
+
+KPI Card or a Bar Chart indicating the percentage of escalated calls.
+Agent Adherence to Schedule:
+
+Line Chart showing the agent adherence percentage over time.
+Customer Feedback and Surveys:
+
+Word Cloud or a Table displaying customer feedback keywords or comments.
+Additional Tips:
+Date Slicers: Add slicers for date ranges to allow users to filter data dynamically.
+
+Agent Filters: Include a dropdown or a list for agents to focus on specific individuals.
+

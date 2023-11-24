@@ -1,0 +1,46 @@
+EDA : 
+Missing Values
+Outliers
+invalid data types 
+
+Categorical analysis - Univariate, Bi, Multi
+Numerical analysis
+
+
+
+Total_Count = COUNTROWS('Telco-Customer-Churn')
+
+Churned_count = COUNTROWS(FILTER('Telco-Customer-Churn', 'Telco-Customer-Churn'[Churn] = "Yes"))
+
+Percent_Churn = 'Telco-Customer-Churn'[Churned_count]/[Total_Count]*100
+
+
+
+Original Data:
+
+Male:3555
+M: 1950 --- 54%
+1Y: 755 --- 21%
+2y: 850 --- 24%
+
+Female: 
+M:
+1Y:
+2y:
+
+Churned Data:
+
+Male: 939
+M:
+1Y:
+2y:
+
+Female:
+M:
+1Y:
+2y:
+Monthly customers are more likely to churn.
+
+
+New Table:
+Churned Customer = CALCULATETABLE('Telco-Customer-Churn','Telco-Customer-Churn'[Churn]="Yes")
